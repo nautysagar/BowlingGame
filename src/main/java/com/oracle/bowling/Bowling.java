@@ -1,10 +1,8 @@
 package com.oracle.bowling;
 
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Bowling {
-	static Logger logger = Logger.getLogger(Bowling.class.getName());
 
 	private Scanner keyIn = new Scanner(System.in);
 

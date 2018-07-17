@@ -86,7 +86,7 @@ public class BowlingParameterizedTest {
 	 */
 
 	@Test
-	public void testPostiveCase() {
+	public void testGame() {
 		systemInMock.provideText(input);
 		b.startGame();
 		if (type == Type.POSTIVE) {
